@@ -1,25 +1,5 @@
 'use strict';
 
-var imgI = document.getElementsById('one')[0];
-var imgII = document.getElementsById('two')[0];
-var imgIII = document.getElementsById('three')[0];
-var imgIV = document.getElementsById('four')[0];
-var imgV = document.getElementsById('five')[0];
-var imgVI = document.getElementsById('six')[0];
-var imgVII = document.getElementsById('seven')[0];
-var imgVIII = document.getElementsById('eight')[0];
-var imgIX = document.getElementsById('nine')[0];
-var imgX = document.getElementsById('ten')[0];
-var imgXI = document.getElementsById('eleven')[0];
-var imgXII = document.getElementsById('twelve')[0];
-var imgXIII = document.getElementsById('thirteen')[0];
-var imgXIV = document.getElementsById('fourteen')[0];
-var imgXV = document.getElementsById('fifteen')[0];
-var imgXVI = document.getElementsById('sixteen')[0];
-var imgXVII = document.getElementsById('seventeen')[0];
-var imgXVIII = document.getElementsById('eighteen')[0];
-var imgXIX = document.getElementsById('nineteen')[0];
-var imgXX = document.getElementsById('twenty')[0];
 // var imgXXI = document.getElementsByClassName('twenty-one')[0];
 // var imgXXII = document.getElementsByClassName('twenty-two')[0];
 // var imgXXIII = document.getElementsByClassName('twenty-three')[0];
@@ -42,6 +22,7 @@ new + (put name of constructor function here.  No parenthesis or quotes)
 
 then in quotes include your paramenters ('first parameter', 'second parameter')*/
 
+//VARIABLES TO STORE THE DATA NEEDED FOR EACH IMAGE.  I'M CALLING THE IMAGE CONSTRUCTOR FUNCTION IN EACH NEW VARIABLE I DEFINE SO THAT I MAY CONSOLODTE THE DATA I NEED (COUNT OF IMAGE CLICK AND COUNT OF IMAGE DISPLAYED).
 var bag = new Image('bag', './assets/bag.jpg');
 console.log (bag);
 var banana = new Image('banana', './assets/banana.jpg');
@@ -82,3 +63,35 @@ var watercan = new Image('water-can', './assets/water-can.jpg');
 console.log (watercan);
 var wineglass = new Image('wine-glass', './assets/wine-glass.jpg');
 console.log (wineglass);
+
+
+
+var imgI = document.getElementById('one')[0];
+var imgII = document.getElementById('two')[0];
+var imgIII = document.getElementById('three')[0];
+var imgIV = document.getElementById('four')[0];
+var imgV = document.getElementById('five')[0];
+var imgVI = document.getElementById('six')[0];
+var imgVII = document.getElementById('seven')[0];
+var imgVIII = document.getElementById('eight')[0];
+var imgIX = document.getElementById('nine')[0];
+var imgX = document.getElementById('ten')[0];
+var imgXI = document.getElementById('eleven')[0];
+var imgXII = document.getElementById('twelve')[0];
+var imgXIII = document.getElementById('thirteen')[0];
+var imgXIV = document.getElementById('fourteen')[0];
+var imgXV = document.getElementById('fifteen')[0];
+var imgXVI = document.getElementById('sixteen')[0];
+var imgXVII = document.getElementById('seventeen')[0];
+var imgXVIII = document.getElementById('eighteen')[0];
+var imgXIX = document.getElementById('nineteen')[0];
+var imgXX = document.getElementById('twenty')[0];
+
+/*var addEvent = window.addEventListener ? function (elem, type, method) {
+    elem.addEventListener(type, method, false);
+} : function (elem, type, method) {
+    elem.attachEvent('on' + type, method);
+};
+
+addEvent(buttons[0], 'click', incrementIndex);
+addEvent(buttons[1], 'click', incrementIndex);*/
