@@ -1,16 +1,10 @@
 'use strict';
 
-// var imgXXI = document.getElementsByClassName('twenty-one')[0];
-// var imgXXII = document.getElementsByClassName('twenty-two')[0];
-// var imgXXIII = document.getElementsByClassName('twenty-three')[0];
-// var imgXXIV = document.getElementsByClassName('twenty-four')[0];
-// var imgXXV = document.getElementsByClassName('twenty-five')[0];
-
 function Image(name, path) {
-   this.name = name;
-   this.path = path;
-   this.displayed = 0;
-   this.clicked = 0;
+  this.name = name;
+  this.path = path;
+  this.displayed = 0;
+  this.clicked = 0;
 }
 
 /*Create a variable to store each image into.  This will allow you to call on images with shorthand text and get data from the Image constructor function.
@@ -87,6 +81,7 @@ var imgXVIII = document.getElementById('eighteen')[0];
 var imgXIX = document.getElementById('nineteen')[0];
 var imgXX = document.getElementById('twenty')[0];
 
+document.getElementById('one').addEventListener('click');
 /*var addEvent = window.addEventListener ? function (elem, type, method) {
     elem.addEventListener(type, method, false);
 } : function (elem, type, method) {
