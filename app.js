@@ -18,47 +18,30 @@ then in quotes include your paramenters ('first parameter', 'second parameter')*
 
 //VARIABLES TO STORE THE DATA NEEDED FOR EACH IMAGE.  I'M CALLING THE IMAGE CONSTRUCTOR FUNCTION IN EACH NEW VARIABLE I DEFINE SO THAT I MAY CONSOLODTE THE DATA I NEED (COUNT OF IMAGE CLICK AND COUNT OF IMAGE DISPLAYED).
 var bag = new Image('bag', './assets/bag.jpg');
-console.log (bag);
 var banana = new Image('banana', './assets/banana.jpg');
-console.log (banana);
 var bathroom = new Image('bathroom', './assets/bathroom.jpg');
-console.log (bathroom);
 var boots = new Image('boots', './assets/boots.jpg');
-console.log (boots);
 var breakfast = new Image('breakfast', './assets/breakfast.jpg');
-console.log (breakfast);
 var bubblegum = new Image('bubblegum', './assets/bubblegum.jpg');
-console.log (bubblegum);
 var chair = new Image('chair', './assets/chair.jpg');
-console.log (bag);
 var cthulhu = new Image('cthulhu', './assets/cthulhu.jpg');
-console.log (cthulhu);
 var dogduck = new Image('dogduck', './assets/dog-duck.jpg');
-console.log (dogduck);
 var dragon = new Image('dragon', './assets/dragon.jpg');
-console.log (dragon);
 var pen = new Image('pen', './assets/pen.jpg');
-console.log (pen);
 var petsweep = new Image('pet-sweep', './assets/pet-sweep.jpg');
-console.log (petsweep);
 var scissors = new Image('scissors', './assets/scissors.jpg');
-console.log (scissors);
 var shark = new Image('shark', './assets/shark.jpg');
-console.log (shark);
 var sweep = new Image('sweep', './assets/sweep.png');
-console.log (sweep);
 var tauntaun = new Image('tauntaun', './assets/tauntaun.jpg');
-console.log (tauntaun);
 var unicorn = new Image('unicorn', './assets/unicorn.jpg');
-console.log (unicorn);
 var usb = new Image('usb', './assets/usb.gif');
-console.log (usb);
 var watercan = new Image('water-can', './assets/water-can.jpg');
-console.log (watercan);
 var wineglass = new Image('wine-glass', './assets/wine-glass.jpg');
-console.log (wineglass);
+var imgArray = [bag, banana, bathroom, boots, breakfast, bubblegum, chair, cthulhu, dogduck, dragon, pen, petsweep, scissors, shark, sweep, tauntaun, unicorn, usb, watercan, wineglass];
+console.table(imgArray);
 
-
+var imgTotal = document.querySelectorAll('img'); document.getElementById('twenty').innerHTML = imgTotal.length;
+console.log(imgTotal);
 
 var imgI = document.getElementById('one')[0];
 var imgII = document.getElementById('two')[0];
@@ -81,7 +64,9 @@ var imgXVIII = document.getElementById('eighteen')[0];
 var imgXIX = document.getElementById('nineteen')[0];
 var imgXX = document.getElementById('twenty')[0];
 
-document.getElementById('one').addEventListener('click');
+
+
+
 /*var addEvent = window.addEventListener ? function (elem, type, method) {
     elem.addEventListener(type, method, false);
 } : function (elem, type, method) {
