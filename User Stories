@@ -1,0 +1,22 @@
+**USER STORIES**
+
+**Front-End User (surveyee)**
+
+A front-end user would like:
+  * To move fluidly through the survey 
+  * The content to be big enough to be legible 
+  * The content to be visually appealing
+ 
+ **Marketing Research Team (surveyer)**
+ 
+ As part of the Market Research Team, you need:
+  * To understand how many times surveyees are clicking on any given product picture
+  * To know what percentage of time pictures are selected in comparison to the other pictures by surveyee's
+ 
+ **Developer**
+ 
+ As a developer, you need to:
+  * Manage your project from start to finish by outlining tasks that need to be completed and giving them a priority of order in addition to outlining what the design style will be
+  * You want to the end user to move through the survey with ease and efficiency
+  * You want to console.log and comment on your code often enough to make it easy to explain as well as translatable for other developers
+  * You will need to provide survey results in a way that's easy to read and undertand for your client
